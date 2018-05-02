@@ -17,16 +17,16 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "PlasmaPy Developers"  # (translatable)
-BLOG_TITLE = "PlasmaPy"  # (translatable)
+BLOG_AUTHOR = "SpectroscoPyx Developers"  # (translatable)
+BLOG_TITLE = "SpectroscoPyx"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://plasmapy.github.io/"
+SITE_URL = "https://spectroscopyx.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-BASE_URL = "https://plasmapy.github.io/"
-PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
-BLOG_DESCRIPTION = "Webpage for PlasmaPy."  # (translatable)
+BASE_URL = "https://spectroscopyx.github.io/"
+PROJECT_REPOSITORY = "https://github.com/PlasmaPy/SpectroscoPyx"
+BLOG_DESCRIPTION = "Webpage for SpectroscoPyx."  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -135,11 +135,11 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ((
-            ("/about", "About PlasmaPy"),
+            ("/about", "About SpectroscoPyx"),
             # ("/acknowledging", "Acknowledging"),
             ("/conduct", "Code of Conduct")
         ), "About"),
-        ("http://docs.plasmapy.org/", "Documentation"),
+        ("http://docs.spectroscopyx.org/", "Documentation"),
         # ("/quickstart", "Quickstart guide"),
         ("/contribute", "Contribute"),
         # ("/team", "Team"),
