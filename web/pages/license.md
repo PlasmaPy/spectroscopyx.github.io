@@ -11,7 +11,7 @@ source code and code snippets, is licensed under a [Creative Commons
 Attribution 4.0 International (CC BY 4.0)
 license](https://creativecommons.org/licenses/by/4.0/).
 
-Copyright (c) 2017, PlasmaPy Developers.
+Copyright (c) 2015-2018, SpectroscoPyx Developers.
 
 ## BSD 3-clause license with patent grant
 
@@ -26,9 +26,9 @@ met:
   notice, this list of conditions and the following disclaimer in the
   documentation and/or other materials provided with the distribution.
 
-* Neither the name of PlasmaPy nor the names of its contributors may
-  be used to endorse or promote products derived from this software
-  without specific prior written permission.
+* Neither the name of SpectroscoPyx nor the names of its contributors 
+  may be used to endorse or promote products derived from this 
+  software without specific prior written permission.
 
 Subject to the terms and conditions of this license, each copyright
 holder and contributor hereby grants to those receiving rights under
