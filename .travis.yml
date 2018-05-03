@@ -20,7 +20,7 @@ deploy:
     branch: src
   local_dir: web/output
   github_token: $GITHUB_TOKEN
-  fqdn: www.plasmapy.org
+  fqdn: spectroscopyx.org
 notifications:
   email:
     on_success: change
