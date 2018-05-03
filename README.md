@@ -4,7 +4,7 @@
 
 This repository contains the code for the website for the PlasmaPy
 project.  The URL of the website is: 
-[`http://spectroscopyx.org/`](http://spectroscopyx.org/)
+[`https://spectroscopyx.org/`](https://spectroscopyx.org/)
 
 ## Building the website
 
