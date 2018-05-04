@@ -55,7 +55,7 @@
 'copy_assets:output/assets/css/baguetteBox.css', (66560, 477)
 'copy_assets:output/assets/css/nikola_ipython.css', (67072, 483)
 'copy_assets:output/assets/css/theme.css', (67584, 475)
-'sitemap:output/sitemap.xml', (68096, 2204)
+'sitemap:output/sitemap.xml', (68096, 2207)
 'render_sources:output/conduct/index.md', (71168, 239)
 'copy_assets:output/assets/css/images/loading.gif', (71680, 493)
 'copy_assets:output/assets/js/moment-with-locales.min.js', (72192, 499)
@@ -114,3 +114,4 @@
 'create_bundles:output/assets/js/all-nocdn.js', (126464, 849)
 'create_bundles:output/assets/css/all.css', (127488, 909)
 'scale_images:output/images/spectroscopyx-logo-black-text.svg', (128512, 254)
+'scale_images:output/images/spectroscopyx-logo-black-text-50.png', (129024, 259)

@@ -315,7 +315,7 @@ COMPILERS = {
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
 #LOGO_URL = '/images/with-text-light-small.png'
-LOGO_URL = '/images/spectroscopyx-logo-black-text.svg'
+LOGO_URL = '/images/spectroscopyx-logo-black-text-50.png'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
