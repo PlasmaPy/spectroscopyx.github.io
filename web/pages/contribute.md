@@ -1,4 +1,4 @@
-title: Contribute to SpectroscoPyx
+title: Contribute to PlasmaPy
 slug: contribute
 
 # Contributing to SpectroscoPyx

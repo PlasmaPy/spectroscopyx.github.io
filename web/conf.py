@@ -21,10 +21,10 @@ BLOG_AUTHOR = "SpectroscoPyx Developers"  # (translatable)
 BLOG_TITLE = "SpectroscoPyx"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://spectroscopyx.github.io/"
+SITE_URL = "https://plasmapy.github.io/spectroscopyx/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-BASE_URL = "https://spectroscopyx.github.io/"
+BASE_URL = "https://plasmapy.github.io/spectroscopyx/"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/SpectroscoPyx"
 BLOG_DESCRIPTION = "Webpage for SpectroscoPyx."  # (translatable)
 
@@ -314,7 +314,8 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-LOGO_URL = '/images/with-text-light-small.png'
+#LOGO_URL = '/images/with-text-light-small.png'
+LOGO_URL = '/images/spectroscopyx-logo-black-text.svg'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
