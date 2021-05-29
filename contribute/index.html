@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contribute to PlasmaPy | SpectroscoPyx</title>
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
-<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../rss.xml">
 <link rel="canonical" href="https://plasmapy.github.io/spectroscopyx/contribute/">
 <link rel="icon" href="../images/favicon-16.png" sizes="16x16">
 <link rel="icon" href="../images/favicon-128.png" sizes="128x128">
@@ -20,65 +21,66 @@ There are numerous ways to contribute to SpectroscoPyx, including by
 providing code and documentation, suggesting and discussing ideas,
 submitting issues and bug reports,">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2018-05-04T10:10:25+02:00">
+<meta property="article:published_time" content="2021-05-29T18:38:02+02:00">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
-<!-- Menubar -->
-
-<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
-<!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="https://plasmapy.github.io/spectroscopyx/">
-                <img src="../images/spectroscopyx-logo-black-text-50.png" alt="SpectroscoPyx" id="logo"></a>
-        </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
-            <ul class="nav navbar-nav">
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-<li>
-<a href="../about">About SpectroscoPyx</a>
-                    </li>
-<li>
-<a href="../conduct">Code of Conduct</a>
-            </li>
-</ul>
-</li>
-<li>
-<a href="http://docs.spectroscopyx.org/">Documentation</a>
-                </li>
-<li>
-<a href="../contribute">Contribute</a>
-
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
                 
-            </li>
-</ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-    <a href="index.md" id="sourcelink">Source</a>
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="../">
+            <img src="../images/spectroscopyx-logo-black-text-50.png" alt="SpectroscoPyx" id="logo" class="d-inline-block align-top"></a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
+<li class="nav-item">
+    <a href="index.md" id="sourcelink" class="nav-link">Source</a>
     </li>
 
+
+                    
+            </ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+            <div class="dropdown-menu">
+                    <a href="../about" class="dropdown-item">About SpectroscoPyx</a>
+                    <a href="../conduct" class="dropdown-item">Code of Conduct</a>
+            </div>
+                </li>
+<li class="nav-item">
+<a href="http://docs.spectroscopyx.org/" class="nav-link">Documentation</a>
+                </li>
+<li class="nav-item">
+<a href="../contribute" class="nav-link">Contribute</a>
+
                 
-            </ul>
+            </li>
+</ul>
 </div>
 <!-- /.navbar-collapse -->
-    </div>
-<!-- /.container -->
-</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
-        <div class="row">
-            
-            
+        
+        
+        
 <article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Contribute to PlasmaPy</a></h1>
 
         
@@ -167,46 +169,40 @@ that may be on your system.</p>
 virtual environment, you will have to let the system know where the Python
 interpreter can be found. On Linux this is done with (for example, assuming
 having installed Anaconda into <code>~/anaconda3</code>):</p>
-<pre class="code literal-block"><span></span>export LD_LIBRARY_PATH="$HOME/anaconda3/lib/"
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="k">export</span> <span class="n">LD_LIBRARY_PATH</span><span class="o">=</span><span class="s2">"$HOME/anaconda3/lib/"</span>
+</code></pre>
 
 <p>Exporting the library path to the dynamic linker will only last for the
 duration of the current shell session.</p>
 <p>Next you should create a sensible directory structure. Something like:</p>
-<pre class="code literal-block"><span></span>mkdir ~/programming/spectroscopyx/
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">mkdir ~/programming/spectroscopyx/</span>
+</code></pre>
 
 <p>You need to make sure that the directory path names don't contain any spaces,
 otherwise virtualenv will throw an error. Now move into the directory and
 create the virtual environment</p>
-<pre class="code literal-block"><span></span>cd ~/programming/spectroscopyx/
-virtualenv -p python3 .
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">cd ~/programming/spectroscopyx/</span>
+<span class="err">virtualenv -p python3 .</span>
+</code></pre>
 
 <p>Your virtual environment should now be created. If you run <code>ls</code> you will notice
 that virtualenv has created a number of subdirectories: <code>bin/</code>, <code>lib/</code>, and
 <code>include/</code>. To activate the virtualenv you will run:</p>
-<pre class="code literal-block"><span></span>source ./bin/activate
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">source ./bin/activate</span>
+</code></pre>
 
 <p>You will have to add the python library directory to LD_LIBRARY_PATH, as
 described in a previous step, prior to activating the virtualenv for every new
 shell session.  You should now see that your shell session is prepended with
 (spectroscopyx), like so:</p>
-<pre class="code literal-block"><span></span>(spectroscopyx) user@name:~/programming/spectroscopyx$ 
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">(spectroscopyx) user@name:~/programming/spectroscopyx$ </span>
+</code></pre>
 
 <p>This indicates that the virtualenv is running. Congratulations!
 When your're done working on SpectroscoPyx, you can deactivate the virtualenv by
 running</p>
-<pre class="code literal-block"><span></span>source deactivate
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">source deactivate</span>
+</code></pre>
 
 <p>If you are running virtualenv, then in the next step you will want to clone
 SpectroscoPyx while in the <code>~/programming/spectroscopyx</code> directory. This will create a
@@ -225,47 +221,41 @@ directory that will host your SpectroscoPyx directory, and run one of the
 following commands (after changing <em>your-username</em> to your username).
 If you would like to use HTTPS (which is the default and easier to set
 up), then run:</p>
-<pre class="code literal-block"><span></span>git clone https://github.com/your-username/SpectroscoPyx.git
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git clone https://github.com/your-username/SpectroscoPyx.git</span>
+</code></pre>
 
 <p>SSH is a more secure option, but requires you to <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/">set up an SSH
 key</a>
 beforehand.  The equivalent SSH command is:</p>
-<pre class="code literal-block"><span></span>git clone git@github.com:your-username/SpectroscoPyx.git
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git clone git@github.com:your-username/SpectroscoPyx.git</span>
+</code></pre>
 
 <p>After cloning, we must tell git where the development version of
 SpectroscoPyx is by running:</p>
-<pre class="code literal-block"><span></span>git remote add upstream git://github.com/PlasmaPy/SpectroscoPyx.git
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git remote add upstream git://github.com/PlasmaPy/SpectroscoPyx.git</span>
+</code></pre>
 
 <p>To check on which remotes exist, run <code>git remote -v</code>.  You should get
 something like this:</p>
-<pre class="code literal-block"><span></span>origin      git@github.com:namurphy/SpectroscoPyx.git (fetch)
-origin      git@github.com:namurphy/SpectroscoPyx.git (push)
-upstream    git@github.com:PlasmaPy/SpectroscoPyx.git (fetch)
-upstream    git@github.com:PlasmaPy/SpectroscoPyx.git (push)
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">origin      git@github.com:namurphy/SpectroscoPyx.git (fetch)</span>
+<span class="err">origin      git@github.com:namurphy/SpectroscoPyx.git (push)</span>
+<span class="err">upstream    git@github.com:PlasmaPy/SpectroscoPyx.git (fetch)</span>
+<span class="err">upstream    git@github.com:PlasmaPy/SpectroscoPyx.git (push)</span>
+</code></pre>
 
 <h4>Setting up SpectroscoPyx for testing</h4>
 <p>Now that you have SpectroscoPyx on your local computer and you have a virtual
 environment, you will want to "install" this development version of SpectroscoPyx
 along with its dependencies. Start by activating your virtual environment. Next
 you want install the SpectroscoPyx dependencies. One way to do this is to do</p>
-<pre class="code literal-block"><span></span>(spectroscopyx) user@name:~/programming/spectroscopyx$ pip install -r requirements/base.txt
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">(spectroscopyx) user@name:~/programming/spectroscopyx$ pip install -r requirements/base.txt</span>
+</code></pre>
 
 <p>Next, setup the development version of SpectroscoPyx which you just cloned by moving
 into the root directory of the cloned repo and running the setup.py script
 there:</p>
-<pre class="code literal-block"><span></span>(spectroscopyx) user@name:~/programming/spectroscopyx/SpectroscoPyx$ python setup.py develop
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">(spectroscopyx) user@name:~/programming/spectroscopyx/SpectroscoPyx$ python setup.py develop</span>
+</code></pre>
 
 <p>You should now be all set to run development versions of SpectroscoPyx modules via
 <code>import SpectroscoPyx</code> in your test scripts!</p>
@@ -273,44 +263,39 @@ there:</p>
 <p>Before making any changes, it is prudent to update your local
 repository with the most recent changes from the development
 repository:</p>
-<pre class="code literal-block"><span></span>git fetch upstream
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git fetch upstream</span>
+</code></pre>
 
 <p>Changes to SpectroscoPyx should be made using branches.  It is usually best
-to avoid making changes on your master branch so that it can be kept
+to avoid making changes on your main branch so that it can be kept
 consistent with the upstream repository.  Instead we can create a new
 branch for the specific feature that you would like to work on:</p>
-<pre class="code literal-block"><span></span>git branch *your-new-feature*
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git branch *your-new-feature*</span>
+</code></pre>
 
 <p>Descriptive branch names such as <code>grad-shafranov</code> or
 <code>adding-eigenfunction-poetry</code> are helpful, while vague names like
 <code>edits</code> are considered harmful.  After creating your branch locally,
 let your fork of SpectroscoPyx know about it by running:</p>
-<pre class="code literal-block"><span></span>git push --set-upstream origin *your-new-feature*
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git push --set-upstream origin *your-new-feature*</span>
+</code></pre>
 
 <p>It is also useful to configure git so that only the branch you are
 working on gets pushed to GitHub:</p>
-<pre class="code literal-block"><span></span>git config --global push.default simple
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git config --global push.default simple</span>
+</code></pre>
 
 <p>Once you have set up your fork and created a branch, you are ready to
 make edits to SpectroscoPyx.  Switch to your new branch by running:</p>
-<pre class="code literal-block"><span></span>git checkout *your-new-feature*
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git checkout *your-new-feature*</span>
+</code></pre>
 
 <p>Go ahead and modify files with your favorite text editor.  Be sure to
 include tests and documentation with any new functionality.  We also
 recommend reading about <a href="https://doi.org/10.1371/journal.pbio.1001745">best practices for scientific
 computing</a>.  SpectroscoPyx
 uses the <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8 style guide for Python
-code</a> and the <a href="https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt">numpydoc
+code</a> and the <a href="https://github.com/numpy/numpy/blob/main/doc/HOWTO_DOCUMENT.rst.txt">numpydoc
 format for
 docstrings</a>
 to maintain consistency and readability.  New contributors should not 
@@ -319,21 +304,18 @@ submitting a pull request, as the <a href="http://pep8speaks.com/">PEP8 Speaks</
 GitHub integration will check pull requests for PEP 8 compatibility, and
 further changes to the style can be suggested during code review.</p>
 <p>You may periodically commit changes to your branch by running</p>
-<pre class="code literal-block"><span></span>git add filename.py
-git commit -m "*brief description of changes*"
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git add filename.py</span>
+<span class="err">git commit -m "*brief description of changes*"</span>
+</code></pre>
 
 <p>Committed changes may be pushed to the corresponding branch on your
 GitHub fork of SpectroscoPyx using </p>
-<pre class="code literal-block"><span></span>git push origin *your-new-feature* 
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git push origin *your-new-feature* </span>
+</code></pre>
 
 <p>or, more simply,</p>
-<pre class="code literal-block"><span></span>git push
-</pre>
-
+<pre class="code literal-block"><span></span><code><span class="err">git push</span>
+</code></pre>
 
 <p>Once you have completed your changes and pushed them to the branch on
 GitHub, you are ready to make a pull request.  Go to your fork of
@@ -348,24 +330,22 @@ code, you may delete the branch you created for that pull request.</p>
     </div>
     
 
-</article>
-</div>
-        <!--End of body content-->
-
-        <footer id="footer">
-            Contents © 2018         <a href="https://github.com/PlasmaPy/SpectroscoPyx">SpectroscoPyx Developers</a> - 
+</article><!--End of body content--><footer id="footer">
+            Contents © 2021         <a href="https://github.com/PlasmaPy/SpectroscoPyx">SpectroscoPyx Developers</a> - 
 <a href="../license">
 License
 </a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>
+            
             
         </footer>
 </div>
 </div>
 
 
-            <script src="../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
-    moment.locale("en");
-    fancydates(0, "YYYY-MM-DD HH:mm");
-    </script><!-- end fancy dates -->
+        <script src="../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script>
 </body>
 </html>
