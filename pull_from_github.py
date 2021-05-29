@@ -2,7 +2,7 @@
 import requests as re
 
 OUTPUT_DIR = "web/pages/"
-BASE_URL = "https://raw.githubusercontent.com/PlasmaPy/SpectroscoPyx/master/"
+BASE_URL = "https://raw.githubusercontent.com/PlasmaPy/SpectroscoPyx/main/"
 WEB_BASE_URL = "https://raw.githubusercontent.com/PlasmaPy/spectroscopyx.github.io/src/"
 PAGES = [
     {"filename": OUTPUT_DIR + "conduct.md",
