@@ -15,7 +15,7 @@ script:
 deploy:
 - provider: pages
   skip_cleanup: true
-  target_branch: master
+  target_branch: main
   on:
     branch: src
   local_dir: web/output
